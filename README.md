@@ -1,26 +1,46 @@
-# Simple-Interest-Project-Python
+ #Simple Interest Project Python
 
-
- 
 from tkinter import *
+ 
+ 
+ 
 from functools import partial
+ 
+ 
+ 
 top=Tk()
+ 
+ 
+ 
 top.title("SIMPLE INTEREST CALCULATER")
+ 
+ 
+ 
 top.geometry("800x800")
-
+ 
 top.config(bg="#00ffff")
+ 
+ 
  
 def cal_si(P,R,T,ANS):
  
  
  
     P = int(num1.get())
-
+ 
+ 
+ 
     R = float(num2.get())
+ 
+ 
  
     T = int(num3.get())
  
+ 
+ 
     SI = P*R*T/100
+ 
+ 
  
     ANS.config(text=" Simple Interest = RS. %d"%SI)
  
@@ -86,4 +106,3 @@ B1= Button(top, text="CALCULATE" ,bg="#ff4d94",fg="white",activeforeground="#ff4
  
 top.mainloop()
  
-
